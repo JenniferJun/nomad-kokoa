@@ -4,6 +4,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 480px;
+  max-width: 645px;
 }
 .alt-header__column {
   width: 33%;

@@ -24,6 +24,20 @@
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+  align-self: center;
+  width: 480px;
+  height: 100vh;
+  max-width: 645px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  overflow: auto;
 }
 
 .main-screen {
